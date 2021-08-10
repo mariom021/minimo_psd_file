@@ -1,0 +1,296 @@
+/* font-family: 'Playfair Display', serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+height: 50px;
+
+align-items: center;
+
+margin-top: 15px;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+    
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+nav ul li{
+}
+nav ul li a{
+    
+text-decoration: none;
+    
+color: #626262;
+    
+font-size: 20px;
+    
+text-transform: uppercase;
+    
+font-family: 'Playfair Display', serif;
+}
+
+.banner{
+
+width: 90%;
+
+margin: auto;
+}
+.banner img{
+    
+width: 100%;
+}
+.photodiary{
+
+width: 80%;
+
+margin: auto;
+
+padding: 100px 0px;
+}
+.photodiary h5{
+
+color: #b4ad9e;
+
+font-size: 14px;
+
+text-transform: uppercase;
+
+margin-bottom: 30px;
+
+font-family: 'Ubuntu', sans-serif;
+}
+.photodiary h1{
+
+color: #626262;
+
+font-size: 35px;
+
+text-transform: capitalize;
+font-family: 'Playfair Display', serif;
+}
+.photodiary p{
+    
+color: #626262;
+    
+font-size: 18px;
+    
+margin: 35px 0px;
+font-family: 'Playfair Display', serif;
+}
+.lifestyle_content{
+
+transform-style: flat;
+
+transform-style: flat;
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+}
+.lifestyle{
+
+width: 47%;
+
+margin-top: 50px;
+}
+.lifestyle img{
+
+width: 100%;
+}
+.lifestyle h5{
+
+margin-top: 20px;
+}
+.lifestyle h1{
+
+font-size: 30px;
+}.lifestyle p{
+    
+margin: 20px 0;
+}
+.sign_up{
+
+background: #ece9e9;
+
+padding: 100px 0;
+}
+.signup_content{
+
+width: 33%;
+
+margin: auto;
+
+text-align: center;
+
+position: relative;
+}
+.signup_content h1{
+
+font-weight: 500;
+
+font-size: 35px;
+
+margin-bottom: 100px;
+
+color: #333333;
+
+font-family: 'Playfair Display', serif;
+}.signup_content input{
+
+border: none;
+
+background: transparent;
+
+border-bottom: 1px solid black;
+
+width: 100%;
+
+padding: 10px 0;
+caret-color: black;
+}
+.signup_content input::placeholder{
+    font-size: 20px;
+
+}
+.signup_content input:focus{
+    outline: none;
+}
+.icon{
+
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+}.icon img{
+    
+}
+.loadmore{
+
+height: 200px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+width: 100%;
+
+margin-bottom: 100px;
+}
+.loadmore button{
+    
+background: none;
+    
+border: 1px solid #a59b9b;
+    
+padding: 30px;
+    
+font-size: 20px;
+    
+font-family: 'Playfair Display', serif;
+    
+text-transform: capitalize;
+    
+font-weight: 600;
+}
+
+
+footer{
+
+background: #ece9e9;
+
+height: 100px;
+
+display: flex;
+
+align-items: center;
+}
+.footer_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+
+width: 25%;
+}
+.terms ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms ul li{
+
+}
+.terms ul li a{
+
+text-decoration: none;
+
+text-transform: capitalize;
+
+color: #000000;
+
+font-size: larger;
+
+font-weight: 600;
+}
+.social_media{
+
+width: 17%;
+}
+.social_media ul{
+
+display: flex;
+
+justify-content: space-between;
+}
+.social_media ul li{
+
+list-style: none;
+
+text-transform: capitalize;
+
+font-size: 20px;
+
+font-weight: 600;
+}
+.social_media ul li a{
+    
+color: #626262;
+}
